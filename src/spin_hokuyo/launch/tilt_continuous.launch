@@ -8,7 +8,9 @@
     type="odrive_node.py"
     args="--motor_id=2
           --calibrate_axis=2
-          --sweep_factor=0.05"
+          --sweep_factor=0.05
+          --continuous_spin=true
+          --continuous_speed=0.2"
     output="screen"
   />
 
